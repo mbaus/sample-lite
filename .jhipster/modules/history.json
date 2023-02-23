@@ -109,5 +109,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "dummy-feature",
+    "date" : "2023-02-23T08:52:14.903518133Z",
+    "properties" : {
+      "packageName" : "de.dacomb.sample",
+      "projectName" : "Sample Application",
+      "baseName" : "sampleApplication",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
