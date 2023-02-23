@@ -175,5 +175,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "frontend-maven-plugin",
+    "date" : "2023-02-23T08:53:39.408678464Z",
+    "properties" : {
+      "packageName" : "de.dacomb.sample",
+      "projectName" : "Sample Application",
+      "baseName" : "sampleApplication",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
