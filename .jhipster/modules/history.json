@@ -164,5 +164,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "react-jwt",
+    "date" : "2023-02-23T08:53:15.950646201Z",
+    "properties" : {
+      "packageName" : "de.dacomb.sample",
+      "projectName" : "Sample Application",
+      "baseName" : "sampleApplication",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
