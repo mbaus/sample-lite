@@ -48,3 +48,16 @@ git commit -m 'add package-lock.json for better transparence normaly I will put 
 [main f159930] add package-lock.json for better transparence normaly I will put this to .gitignore
 1 file changed, 6865 insertions(+)
 create mode 100644 package-lock.json
+
+
+---
+
+Now I add the first ts file to the reppo and it fails .
+Pleas see my screecast add_first_file.cast
+
+you can replay ist with ```asciinema play add_first_file.cast```
+If you cannot play it, herre is the Website for it:
+https://asciinema.org/
+
+to check in this file I remove the execution Flag from Husky
+chmod -x .husky/pre-commit
