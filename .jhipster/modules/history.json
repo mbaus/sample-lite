@@ -21,5 +21,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "java-base",
+    "date" : "2023-02-23T08:52:05.954188996Z",
+    "properties" : {
+      "packageName" : "de.dacomb.sample",
+      "projectName" : "Sample Application",
+      "baseName" : "sampleApplication",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
