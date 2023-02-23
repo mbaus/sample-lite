@@ -142,5 +142,16 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "prettier",
+    "date" : "2023-02-23T08:53:14.031622890Z",
+    "properties" : {
+      "packageName" : "de.dacomb.sample",
+      "projectName" : "Sample Application",
+      "baseName" : "sampleApplication",
+      "serverPort" : 8080,
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
