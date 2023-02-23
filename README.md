@@ -33,5 +33,6 @@ npm install
 - [Package types](documentation/package-types.md)
 - [Assertions](documentation/assertions.md)
 - [Logs spy](documentation/logs-spy.md)
+- [Cucumber](documentation/cucumber.md)
 
 <!-- jhipster-needle-documentation -->
