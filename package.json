@@ -7,20 +7,48 @@
   "engines": {
     "node": ">=18.13.0"
   },
+  "jestSonar": {
+    "reportPath": "target/test-results",
+    "reportFile": "TESTS-results-sonar.xml"
+  },
   "cacheDirectories": [
     "node_modules"
   ],
   "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --emptyOutDir",
+    "preview": "vite preview",
+    "start": "vite",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest --",
     "prepare": "husky install",
     "prettier:check": "prettier --check \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java,xml}\"",
     "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java,xml}\""
   },
   "devDependencies": {
+    "@testing-library/react": "13.4.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@types/ws": "8.5.4",
+    "@vitejs/plugin-react": "3.0.1",
+    "@vitest/coverage-istanbul": "0.28.3",
+    "jsdom": "21.1.0",
+    "typescript": "4.9.5",
+    "ts-node": "10.9.1",
+    "vite": "4.1.1",
+    "vitest": "0.28.3",
+    "vitest-sonar-reporter": "0.3.3",
     "@prettier/plugin-xml": "2.2.0",
     "husky": "8.0.3",
     "lint-staged": "13.1.0",
     "prettier": "2.8.3",
     "prettier-plugin-java": "2.0.0",
     "prettier-plugin-packagejson": "2.4.2"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
