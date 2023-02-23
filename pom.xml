@@ -28,6 +28,7 @@
     <testng.version>7.7.1</testng.version>
     <jjwt.version>0.11.5</jjwt.version>
     <reflections.version>0.10.2</reflections.version>
+    <springdoc-openapi-starter-webmvc.version>2.0.2</springdoc-openapi-starter-webmvc.version>
   </properties>
 
   <dependencyManagement>
@@ -93,6 +94,18 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>${springdoc-openapi-starter-webmvc.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+      <version>${springdoc-openapi-starter-webmvc.version}</version>
     </dependency>
 
     <dependency>
